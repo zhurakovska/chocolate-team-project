@@ -1,3 +1,54 @@
 .hero {
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/hero-img/hero-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+.hero-subtitle {
+    font-weight: var(--fw-medium);
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--white-color);
+}
+
+
+
+.section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  @media screen and (min-width: 768px) {
+    .section {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .section {
+      padding-top: 128px;
+      padding-bottom: 128px;
+    }
+  }
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  @media screen and (min-width: 375px) {
+    .container {
+      width: 375px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 768px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 1200px;
+    }
+  }
