@@ -98,8 +98,11 @@
     border: none;
     background-color: var(--accent-color);
     color: var(--white-color);
+}
 
-
+.subscribe-btn:hover {
+    color: var(--accent-color);
+    background-color: var(--hover-color);
 }
 
 
