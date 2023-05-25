@@ -12,6 +12,26 @@
 @import url('./subscribe.css');
 @import url('./footer.css');
 
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
 p,
 h1,
 h2,
@@ -31,6 +51,10 @@ img {
 ul {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .visually-hidden {
