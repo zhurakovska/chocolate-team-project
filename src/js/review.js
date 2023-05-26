@@ -1,12 +1,14 @@
 (() => {
-    const refs = {
-      openReviewBtn: document.querySelector(“[data-review-open]“),
-      closeReviewBtn: document.querySelector(“[data-review-close]“),
-      review: document.querySelector(“[data-review]“),
-    };
-    refs.openReviewBtn.addEventListener(“click”, toggleReview);
-    refs.closeReviewBtn.addEventListener(“click”, toggleReview);
-    function toggleReview() {
-      refs.review.classList.toggle(“is-hidden”);
-    }
-  })();
+  const refs = {
+    openModalBtn: document.querySelector("[data-review-open]"),
+    closeModalBtn: document.querySelector("[data-review-close]"),
+    modal: document.querySelector("[data-review]"),
+  };
+
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.closeModalBtn.addEventListener("click", toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle("is-hidden");
+  }
+})();
