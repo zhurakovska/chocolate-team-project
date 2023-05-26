@@ -1,3 +1,21 @@
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --fw-ligth: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --primary-dark-color: #111111;
+    --secondary-dark-color: #1e1823;
+    --accent-color: #fd9222;
+    --hover-color: #fcf1e0;
+    --white-color: #ffffff;
+    --white-color-100: #fafafa;
+    --input-color: rgba(64, 64, 64, 0.3);
+    --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
 .footer {
     background-color: var(--secondary-dark-color);
 
@@ -5,6 +23,19 @@
 
 .footer-container {
     padding: 32px 0;
+    position: relative;
+}
+
+
+.footer-container::after {
+    position: absolute;
+    top: 224px;
+    right: 20px;
+    display: inline-block;
+    content: '';
+    width: calc(100% - 40px);
+    height: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-slogan {
@@ -13,23 +44,61 @@
     line-height: 1.17;
     letter-spacing: -0.02em;
     color: var(--white-color);
+    max-width: 300px;
+    margin-bottom: 32px;
 }
 
 .footer-slogan-choco {
     color: var(--accent-color);
-    padding-right: 6px;
+    padding-right: 8px;
 }
 
 .footer-contact-us {
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    color: var(--white-color)
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    max-width: 164px;
+    margin-bottom: 64px;
+}
+
+.footer-contact-us-text {
+    margin-bottom: 14px;
+}
+
+.footer-contact-us-tel {
+    margin-bottom: 4px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 14px;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+
+.footer-inst-icon {
+    stroke: var(--white-color);
+    fill: transparent;
+}
+
+.footer-twitter-icon {
+    stroke: var(--white-color);
+    fill: transparent;
+}
+
+.footer-inst-icon:hover {
+    stroke: var(--accent-color);
+}
+
+.footer-twitter-icon:hover {
+    stroke: var(--accent-color);
 }
 
 .footer-navigation-link {
-
-
     font-weight: var(--fw-medium);
     font-size: 14px;
     line-height: 1.14;
@@ -38,7 +107,11 @@
 }
 
 
-
+.footer-navigation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
 
 
 
