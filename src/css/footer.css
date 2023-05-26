@@ -1,0 +1,61 @@
+.footer {
+    background-color: var(--secondary-dark-color);
+
+}
+
+.footer-container {
+    padding: 32px 0;
+}
+
+.footer-slogan {
+    font-weight: var(--fw-medium);
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: var(--white-color);
+}
+
+.footer-slogan-choco {
+    color: var(--accent-color);
+    padding-right: 6px;
+}
+
+.footer-contact-us {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--white-color)
+}
+
+.footer-navigation-link {
+
+
+    font-weight: var(--fw-medium);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: var(--white-color);
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------375px-------------------------- */
+
+@media screen and (min-width: 375px) {}
+
+
+/* ----------------------------768px----------------------------- */
+
+@media screen and (min-width: 768px) {}
+
+
+
+/* -------------------------------1200px-------------------------------- */
+
+@media screen and (min-width: 1200px) {}
