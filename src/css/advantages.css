@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --font-family: 'Montserrat', sans-serif;
   --fw-ligth: 400;
   --fw-medium: 500;
@@ -12,7 +12,7 @@
   --white-color-100: #fafafa;
   --input-color: rgba(64, 64, 64, 0.3);
   --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .advantages-mob {
   background-color: var(--secondary-dark-color);
