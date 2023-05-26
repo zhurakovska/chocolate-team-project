@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+.hero {
+    padding-bottom: 72px;
+}
+
 .hero-inner {
     min-height: 500px;
     padding: 20px;
@@ -13,7 +17,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 24px;
+    border-radius: 30px;
 }
 
 .hero-subtitle {
@@ -117,6 +121,10 @@ body {
       width: 768px;
     }
 
+    .hero {
+        padding-bottom: 50px;
+    }
+
     .hero-inner {
         padding: 40px;
         height: 890px;
@@ -167,6 +175,10 @@ body {
 @media screen and (min-width: 1200px) {
     .container {
       width: 1200px;
+    }
+
+    .hero {
+        padding-bottom: 72px;
     }
 
     .hero-inner {
