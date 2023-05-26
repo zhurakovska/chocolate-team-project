@@ -86,6 +86,8 @@
     background-color: var(--white-color);
     transform: translateY(100%);
     transition: transform 250ms linear;
+    /* border: 1px solid var(--accent-color);
+    border-radius: 15px; */
 }
 
 .components-top-name {
@@ -166,7 +168,19 @@
     }
   }
   @media screen and (min-width: 1200px) {
-    /* .container {
-      width: 1200px;
-    } */
+    .components-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 19px;
+        margin-top: 50px;
+    }
+
+    .components-item {
+        width: calc((100% - 57px) /4);
+    }
+
+    .components-top-wrapper {
+        padding: 20px;
+    }
   }
