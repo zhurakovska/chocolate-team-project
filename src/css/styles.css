@@ -1,6 +1,4 @@
 @import url('./vars.css');
-@import url('./reset.css');
-@import url('./base.css');
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./advantages.css');
@@ -45,12 +43,18 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  width: 100%;
 }
 
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
 }
 
 body {
@@ -64,4 +68,45 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
+}
+
+.section {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
