@@ -86,8 +86,11 @@
     background-color: var(--white-color);
     transform: translateY(100%);
     transition: transform 250ms linear;
-    /* border: 1px solid var(--accent-color);
-    border-radius: 15px; */
+    border-radius: 15px;
+}
+
+.components-top-wrapper-border {
+    border: 1px solid var(--accent-color);
 }
 
 .components-top-name {
