@@ -54,6 +54,66 @@
           </p>
         </li>
       </ul>
+      <button type="button" class="reviews-btn" data-review-open>
+        Leave a review
+      </button>
     </div>
   </div>
 </section>
+
+<!-- Modal window -->
+<div class="backdrop is-hidden" data-review>
+  <div class="modal">
+    <button type="button" class="modal-btn" data-review-close>
+      <svg class="modal-icon" width="28" height="28">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <!-- Form -->
+    <div class="form">
+      <form class="modal-form" autocomplete="off">
+        <h2 class="modal-text">
+          Leave a review about <span class="accent-title">our chocolate</span>
+        </h2>
+        <div class="form-thumb">
+          <label class="modal-form-label" autofocus>
+            <input
+              type="name"
+              name="name"
+              class="modal-form-input"
+              placeholder="Name"
+          /></label>
+
+          <label class="modal-form-label">
+            <input
+              type="email"
+              name="email"
+              class="modal-form-input"
+              placeholder="Enter your email"
+          /></label>
+
+          <label class="modal-form-label label-before">
+            <span class="label-before-tel">+380</span>
+            <span class="label-before-box"></span>
+            <input
+              type="tel"
+              name="tel"
+              class="modal-form-input input-tel"
+              placeholder="Phone number"
+          /></label>
+
+          <label class="modal-form-label">
+            <textarea
+              name="comment"
+              rows="5"
+              class="modal-form-textarea"
+              placeholder="Enter text"
+            ></textarea>
+          </label>
+
+          <button type="submit" class="form-submit-btn">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
