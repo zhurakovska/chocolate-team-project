@@ -51,6 +51,15 @@
     background-color: var(--accent-color);
 }
 
+.components-item-milk {
+    background-color: var(--white-color);
+    border: 1px solid var(--accent-color);
+}
+
+.components-item-nuts {
+    background-color: var(--secondary-dark-color);
+}
+
 .components-item-name {
     margin-right: auto;
     font-weight: var(--fw-semibold);
@@ -59,6 +68,10 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: var(--white-color);
+}
+
+.components-item-name-black {
+    color: var(--primary-dark-color);
 }
 
 .components-top-wrapper {
@@ -83,6 +96,7 @@
     color: var(--primary-dark-color);
 
 }
+
 
 .components-top-ingredient {
     max-width: 81px;
