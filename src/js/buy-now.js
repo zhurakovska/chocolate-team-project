@@ -5,8 +5,10 @@
     modal: document.querySelector("[data-order]"),
   };
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
+  if (refs.openModalBtn && refs.closeModalBtn && refs.modal) {
+    refs.openModalBtn.addEventListener("click", toggleModal);
+    refs.closeModalBtn.addEventListener("click", toggleModal);
+  }
 
   function toggleModal() {
     refs.modal.classList.toggle("is-hidden");
