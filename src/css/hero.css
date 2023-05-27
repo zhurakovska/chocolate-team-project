@@ -21,7 +21,7 @@ body {
 }
 
 .hero-subtitle {
-    font-family: 'Montserrat-400', sans-serif;
+    font-family: 'Montserrat-500';
     font-size: 18px;
     line-height: 1.2;
     color: var(--white-color);
@@ -34,7 +34,7 @@ body {
 }
 
 .hero-link {
-    font-family: 'Montserrat-600', sans-serif;
+    font-family: 'Montserrat-600';
     font-size: 12px;
     line-height: 1.2;
     color: var(--white-color);
@@ -57,7 +57,7 @@ body {
     font-family: var(--font-family);
     padding: 12px 22px;
     margin-right: 14px;
-    font-family: 'Montserrat-600', sans-serif;
+    font-family: 'Montserrat-600';
     font-size: 10px;
     line-height: 1.2;
     color: var(--white-color);
@@ -75,7 +75,7 @@ body {
 
 .hero-btn-scroll {
     margin-top: 32px;
-    font-family: 'Montserrat-500', sans-serif;
+    font-family: 'Montserrat-500';
     font-size: 10px;
     line-height: 1.1;
     border: none;
@@ -148,7 +148,7 @@ body {
     
     .hero-subtitle {
         max-width: 484px;
-        font-family: 'Montserrat-500', sans-serif;
+        font-family: 'Montserrat-500';
         font-size: 28px;
         line-height: 1.2;
         letter-spacing: 0.03em;
