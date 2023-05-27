@@ -35,7 +35,8 @@
 }
 
 .advantages-text-content {
-  font-weight: 400;
+  font-family: 'Montserrat-400';
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: -0.02em;
@@ -43,7 +44,8 @@
 }
 
 .advantages-title {
-  font-weight: 600;
+  font-family: 'Montserrat-600';
+  /* font-weight: 600; */
   font-size: 18px;
   line-height: 1.2;
   color: var(--white-color);
