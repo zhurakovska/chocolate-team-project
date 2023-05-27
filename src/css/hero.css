@@ -20,8 +20,12 @@ body {
     border-radius: 30px;
 }
 
+.hero-wrapper-btn {
+    display: flex;
+}
+
 .hero-subtitle {
-    font-family: 'Montserrat-500';
+    font-family: 'Montserrat-500', sans-serif;
     font-size: 18px;
     line-height: 1.2;
     color: var(--white-color);
@@ -34,7 +38,7 @@ body {
 }
 
 .hero-link {
-    font-family: 'Montserrat-600';
+    font-family: 'Montserrat-600', sans-serif;
     font-size: 12px;
     line-height: 1.2;
     color: var(--white-color);
@@ -53,7 +57,6 @@ body {
 }
 
 .hero-btn {
-    max-width: 120px;
     font-family: var(--font-family);
     padding: 12px 22px;
     margin-right: 14px;
@@ -75,7 +78,7 @@ body {
 
 .hero-btn-scroll {
     margin-top: 32px;
-    font-family: 'Montserrat-500';
+    font-family: 'Montserrat-500', sans-serif;
     font-size: 10px;
     line-height: 1.1;
     border: none;
@@ -148,27 +151,25 @@ body {
     
     .hero-subtitle {
         max-width: 484px;
-        font-family: 'Montserrat-500';
+        font-family: 'Montserrat-500', sans-serif;
         font-size: 28px;
         line-height: 1.2;
-        letter-spacing: 0.03em;
+        letter-spacing: -0.03em;
         color: var(--white-color);
+    }
+
+    .hero-btn {
+        padding: 14px 40px;
+    }
+
+    .hero-link {
+        padding: 14px 40px;
     }
 
     .hero-btn-scroll {
         margin-left: auto;
         margin-top: 0;
         margin-right: 0;
-    }
-
-    .hero-btn {
-        max-width: 144px;
-        padding: 14px 40px;
-    }
-
-    .hero-link {
-        max-width: 183px;
-        padding: 14px 40px;
     }
     
   }
