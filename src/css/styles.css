@@ -1,3 +1,4 @@
+@import url('./fonts.css');
 @import url('./vars.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -9,26 +10,6 @@
 @import url('./reviews.css');
 @import url('./subscribe.css');
 @import url('./footer.css');
-
-@font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url(../fonts/Montserrat-Bold.ttf);
-}
-
-@font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url(../fonts/Montserrat-Medium.ttf);
-}
-
-@font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url(../fonts/Montserrat-Regular.ttf);
-}
-
-@font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url(../fonts/Montserrat-SemiBold.ttf);
-}
 
 p,
 h1,
