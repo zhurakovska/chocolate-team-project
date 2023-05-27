@@ -66,10 +66,12 @@
  }
 
  .footer-contact-us-text {
+     font-family: "Montserrat-400";
      margin-bottom: 14px;
  }
 
  .footer-contact-us-tel {
+     font-family: "Montserrat-400";
      margin-bottom: 4px;
  }
 
@@ -84,11 +86,15 @@
  .footer-inst-icon {
      stroke: var(--white-color);
      fill: transparent;
+     width: 22px;
+     height: 22px;
  }
 
  .footer-twitter-icon {
      stroke: var(--white-color);
      fill: transparent;
+     width: 22px;
+     height: 22px;
  }
 
  .footer-inst-icon:hover {
@@ -106,7 +112,7 @@
  }
 
  .footer-navigation-link {
-     font-family: 'Montserrat-5ц00';
+     font-family: 'Montserrat-500';
      font-size: 14px;
      line-height: 1.14;
      letter-spacing: -0.02em;
@@ -126,7 +132,55 @@
 
  /* ----------------------------768px----------------------------- */
 
- @media screen and (min-width: 768px) {}
+ @media screen and (min-width: 768px) {
+
+     .footer-container {
+         padding: 50px 32px;
+     }
+
+     .footer-slogan-table {
+         display: flex;
+         gap: 124px;
+     }
+
+     .footer-slogan {
+         font-family: "Montserrat-500";
+         font-size: 28px;
+         line-height: 1.21;
+         letter-spacing: -0.02em;
+         color: var(--white-color);
+         max-width: 300px;
+         margin-bottom: 32px;
+         margin-bottom: 78px;
+     }
+
+     .footer-socials {
+         top: 50px;
+         right: 32px;
+         gap: 18px;
+     }
+
+     .footer-inst-icon {
+         width: 24px;
+         height: 24px;
+     }
+
+     .footer-twitter-icon {
+         width: 24px;
+         height: 24px;
+     }
+
+     .footer-container::after {
+         top: 172px;
+         right: 32px;
+         width: calc(100% - 64px);
+     }
+
+     .footer-navigation-list {
+         flex-direction: row;
+         gap: 24px;
+     }
+ }
 
 
 
