@@ -86,7 +86,41 @@
 
 /* ----------------------------768px----------------------------- */
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .subscribe-container {
+        max-width: 531px;
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .subscribe-title {
+        font-weight: var(--fw-semibold);
+        font-size: 24px;
+        line-height: 1.17;
+        text-transform: uppercase;
+        max-width: 376px;
+        margin-bottom: 24px;
+    }
+
+    .subscribe-text {
+        max-width: 100%;
+        height: 72px;
+    }
+
+    .subscribe-btn {
+        min-width: 172px;
+        min-height: 50px;
+    }
+
+    .subscribe-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url(../img/subscribe-img/tablet-subscribe-img.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+}
 
 
 
