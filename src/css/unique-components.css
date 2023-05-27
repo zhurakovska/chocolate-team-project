@@ -3,7 +3,9 @@
     max-width: 283px;
     text-align: center;
     margin-bottom: 24px;
-    font-weight: var(--fw-medium);
+
+    
+    font-family: 'Montserrat-600', sans-serif;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.03em;
@@ -16,11 +18,12 @@
 }
 
 .components-text {
+    font-family: 'Montserrat-400', sans-serif;
     margin: 0 auto;
     font-size: 14px;
     line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.02em;
     color: var(--primary-dark-color);
 }
 
@@ -40,7 +43,6 @@
     justify-content: center;
     gap: 25px;
     position: relative;
-    /* width: 335px; */
     border-radius: 15px;
     overflow: hidden;
 }
@@ -64,7 +66,7 @@
 
 .components-item-name {
     margin-right: auto;
-    font-weight: var(--fw-semibold);
+    font-family: 'Montserrat-600', sans-serif;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: -0.02em;
@@ -94,7 +96,7 @@
 }
 
 .components-top-name {
-    font-weight: var(--fw-semibold);
+    font-family: 'Montserrat-600', sans-serif;
     font-size: 18px;
     line-height: 1.2;
     letter-spacing: -0.03em;
@@ -106,6 +108,7 @@
 
 
 .components-top-ingredient {
+    font-family: 'Montserrat-400', sans-serif;
     max-width: 81px;
     margin-right: 8px;
     font-size: 10px;
@@ -113,12 +116,14 @@
     padding: 6px 16px;
     color: var(--white-color);
     background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
     border: none;
     border-radius: 35px;
 }
 
 .components-top-benefit {
-    max-width: 93px;
+    font-family: 'Montserrat-400', sans-serif;
+    max-width: 96px;
     padding: 6px 16px;
     background-color: transparent;
     border: 1px solid var(--accent-color);
@@ -129,6 +134,7 @@
 }
 
 .components-top-text {
+    font-family: 'Montserrat-400', sans-serif;
     margin-top: 14px;
     font-size: 14px;
     line-height: 1.2;
@@ -180,5 +186,6 @@
 
     .components-top-wrapper {
         padding: 20px;
+        overflow: auto;
     }
   }
