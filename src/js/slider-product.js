@@ -14,6 +14,8 @@ var swiper = new Swiper(".mySwiper", {
   },
     
     loop: true,
+    loopedSlides: 4,
+     loopFillGroupWithBlank: true,
             autoplay: {
           delay: 1000,
           pauseOnMouseEnter: true,
