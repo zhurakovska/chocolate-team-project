@@ -1,5 +1,6 @@
 .products {
   background-color: var(--white-color-100);
+  overflow: hidden;
 }
 .products-title {
   font-family: 'Montserrat-600', sans-serif;
