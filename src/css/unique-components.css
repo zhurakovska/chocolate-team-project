@@ -186,5 +186,6 @@
 
     .components-top-wrapper {
         padding: 20px;
+        overflow: auto;
     }
   }
