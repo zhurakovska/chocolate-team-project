@@ -1,23 +1,21 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiperReview", {
       breakpoints: {
     0: {
       slidesPerView: 1,
     },
     768: {
         slidesPerView: 2,
-         spaceBetween: 18,
+         spaceBetween: 16,
     },
     1200: {
-      slidesPerView: 4,
-      spaceBetween: 18,
+      slidesPerView: 3,
+      spaceBetween: 28,
     },
   },
     
     loop: true,
-    loopedSlides: 4,
-     loopFillGroupWithBlank: true,
             autoplay: {
-          delay: 800,
+          delay: 1000,
           pauseOnMouseEnter: true,
         },
       pagination: {
@@ -25,4 +23,3 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
       },
 });
-    
