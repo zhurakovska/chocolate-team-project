@@ -21,7 +21,7 @@ body {
 }
 
 .hero-subtitle {
-    font-weight: var(--fw-medium);
+    /* font-weight: var(--fw-medium); */
     font-size: 20px;
     line-height: 1.2;
     color: var(--white-color);
@@ -34,7 +34,7 @@ body {
 }
 
 .hero-link {
-    font-weight: var(--fw-semibold);
+    /* font-weight: var(--fw-semibold); */
     font-size: 12px;
     line-height: 1.2;
     color: var(--white-color);
@@ -57,7 +57,7 @@ body {
     font-family: var(--font-family);
     padding: 12px 22px;
     margin-right: 14px;
-    font-weight: var(--fw-semibold);
+    /* font-weight: var(--fw-semibold); */
     font-size: 12px;
     line-height: 1.2;
     color: var(--white-color);
@@ -75,7 +75,7 @@ body {
 
 .hero-btn-scroll {
     margin-top: 32px;
-    font-weight: var(--fw-medium);
+    /* font-weight: var(--fw-medium); */
     font-size: 12px;
     line-height: 1.1;
     border: none;
@@ -147,7 +147,7 @@ body {
     
     .hero-subtitle {
         max-width: 484px;
-        font-weight: var(--fw-medium);
+        /* font-weight: var(--fw-medium); */
         font-size: 28px;
         line-height: 1.2;
         letter-spacing: 0.03em;
