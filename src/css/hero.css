@@ -7,7 +7,7 @@ body {
 }
 
 .hero-inner {
-    min-height: 500px;
+    min-height: 580px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -77,6 +77,8 @@ body {
 }
 
 .hero-btn-scroll {
+    display: flex;
+    align-items: center;
     margin-top: 32px;
     font-family: 'Montserrat-500', sans-serif;
     font-size: 10px;
@@ -85,6 +87,17 @@ body {
     background-color: transparent;
     color: var(--white-color);
     margin-right: auto;
+}
+
+.hero-btn-circle {
+    padding: 6px;
+    background-color: var(--white-color);
+    margin-left: 12px;
+    border-radius: 50%;
+}
+
+.hero-icon {
+    
 }
 
 @media screen and (min-width: 375px) {
