@@ -199,4 +199,16 @@
 
 /* -------------------------------1200px-------------------------------- */
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    .footer-slogan-table {
+        gap: 543px;
+    }
+
+    .footer-slogan {
+        margin-bottom: 86px;
+    }
+
+    .footer-container::after {
+        top: 180px;
+    }
+}
