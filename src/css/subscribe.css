@@ -1,3 +1,22 @@
+/* :root {
+    --font-family: 'Montserrat', sans-serif;
+    --fw-normal: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --primary-dark-color: #111111;
+    --secondary-dark-color: #1e1823;
+    --accent-color: #fd9222;
+    --hover-color: #fcf1e0;
+    --white-color: #ffffff;
+    --white-color-100: #fafafa;
+    --input-color: rgba(64, 64, 64, 0.3);
+    --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+
+
+
 .subscribe-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url(../img/subscribe-img/mob-subscribe-img.jpg);
@@ -33,7 +52,7 @@
 }
 
 .subscribe-text {
-    font-weight: var(--fw-ligth);
+    font-family: ;
     font-size: 14px;
     line-height: 1.29;
     text-align: center;
@@ -45,6 +64,9 @@
 }
 
 .subscribe-btn {
+    font-family: "Montserrat-600";
+    font-size: 14px;
+    line-height: 1.21;
     min-width: 128px;
     min-height: 41px;
     border-radius: 100px;
@@ -67,10 +89,55 @@
 
 /* ----------------------------768px----------------------------- */
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .subscribe-container {
+        max-width: 531px;
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .subscribe-title {
+        font-weight: var(--fw-semibold);
+        font-size: 24px;
+        line-height: 1.17;
+        text-transform: uppercase;
+        max-width: 376px;
+        margin-bottom: 24px;
+    }
+
+    .subscribe-text {
+        max-width: 100%;
+        height: 72px;
+    }
+
+    .subscribe-btn {
+        font-size: 18px;
+        line-height: 1.22;
+        min-width: 172px;
+        min-height: 50px;
+    }
+
+    .subscribe-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url(../img/subscribe-img/tablet-subscribe-img.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+}
 
 
 
 /* -------------------------------1200px-------------------------------- */
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    .subscribe-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url(../img/subscribe-img/desktop-subscribe-img.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+}
