@@ -1,6 +1,9 @@
 .reviews {
   overflow: hidden;
 }
+.reviews-list {
+  display: flex;
+}
 
 .reviews-title {
   font-family: 'Montserrat-600', sans-serif;
@@ -49,6 +52,9 @@
   text-align: center;
   letter-spacing: -0.02em;
   color: rgba(17, 17, 17, 0.7);
+}
+.reviews-text-grow {
+  margin-bottom: 16px;
 }
 .reviews-btn {
   font-family: 'Montserrat-600', sans-serif;
