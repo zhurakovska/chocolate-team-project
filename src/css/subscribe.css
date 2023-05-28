@@ -64,6 +64,9 @@
 }
 
 .subscribe-btn {
+    font-family: "Montserrat-600";
+    font-size: 14px;
+    line-height: 17px;
     min-width: 128px;
     min-height: 41px;
     border-radius: 100px;
@@ -108,6 +111,8 @@
     }
 
     .subscribe-btn {
+        font-size: 18px;
+        line-height: 1.22;
         min-width: 172px;
         min-height: 50px;
     }
