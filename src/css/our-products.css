@@ -20,11 +20,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
   background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
 }
 .products-img {
+  margin-bottom: 8px;
   border-radius: 15px;
 }
 
@@ -47,7 +50,6 @@
 .products-btn {
   font-family: 'Montserrat-600', sans-serif;
   padding: 8px 20px;
-  margin-bottom: 32px;
   font-size: 14px;
   line-height: 1.21;
 
