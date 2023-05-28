@@ -12,10 +12,10 @@ var swiper = new Swiper(".mySwiperReview", {
       slidesPerView: 3,
       spaceBetween: 28,
     },
+
   },
     
     loop: true,
-    loopedSlides: 3,
             autoplay: {
           delay: 1000,
           pauseOnMouseEnter: true,
