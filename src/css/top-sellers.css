@@ -17,20 +17,27 @@
 .top-sellers-thumb {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
 }
+
 .top-sellers-img {
   border-radius: 15px;
 }
-.top-sellers-img-order {
+.top-sellers-img-tab {
   order: 2;
 }
-.top-sellers-img-hidden {
+
+.top-sellers-img-order {
   display: none;
 }
 .top-sellers {
   background: #fafafa;
 }
+
+
+.top-sellers-text {
+=======
 .container {
   width: 100%;
 }
@@ -44,6 +51,7 @@
   font-family: 'Montserrat-400', sans-serif;
   text-align: left;
   max-width: 306px;
+  /* margin-bottom: 32px; */
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
@@ -51,7 +59,7 @@
 } */
 .buy-modal-btn {
   display: block;
-  order: 3;
+  order: 2;
   margin: 0 auto;
   padding: 12px 28px;
   max-width: 120px;
@@ -241,12 +249,15 @@
   letter-spacing: -0.02em;
   width: 100%;
   resize: none;
-  color: var(--primary-dark-color);
+  color: rgba(64, 64, 64, 0.3);
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   outline: transparent;
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 13px;
   transition: border var(--timing-function);
+}
+.buy-now-textarea {
+  color: rgba(64, 64, 64, 0.3);
 }
 .buy-now-input-tel {
   padding-left: 100px;
@@ -262,18 +273,20 @@
 
 @media screen and (min-width: 768px) {
   .top-sellers-thumb {
-    display: flex;
-    gap: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
   }
   .top-sellers-title {
     font-size: 24px;
     line-height: calc(28 / 24);
     margin-bottom: 50px;
   }
-  .top-sellers-wrapper {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 32px;
+  .top-sellers-img-tab {
+    order: 0;
+  }
+  .top-sellers-picture {
+    width: 100%;
   }
   .top-sellers-text {
     max-width: 306px;
@@ -282,6 +295,8 @@
   }
 
   .buy-modal-btn {
+    order: 1;
+
     margin: 0;
     margin-top: 0;
     margin-left: auto;
@@ -350,12 +365,20 @@
 @media screen and (min-width: 1200px) {
   .top-sellers-thumb {
     display: flex;
-    gap: 16px;
+    justify-content: center;
+    align-items: flex-start;
   }
   .top-sellers-text {
     max-width: 407px;
+    order: 2;
   }
-  .top-sellers-img-hidden {
+  .buy-modal-btn {
+    order: 2;
+  }
+  .top-sellers-picture {
+    width: 30%;
+  }
+  .top-sellers-img-order {
     display: block;
   }
   .buy-now-submit {
