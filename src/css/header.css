@@ -124,8 +124,6 @@
   display: flex;
   gap: 20px;
 }
-.menu-icon-soc-list {
-}
 .menu-icon-soc-link {
   stroke: var(--white-color);
   outline: none;
