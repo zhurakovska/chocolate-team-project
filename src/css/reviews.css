@@ -150,6 +150,7 @@
 .modal-btn:focus {
   border-radius: 50%;
   background-color: #fcf1e0;
+  color: var(--accent-color);
 }
 .modal-icon {
   fill: currentColor;
