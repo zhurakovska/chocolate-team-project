@@ -39,10 +39,6 @@
 }
 /* .menu-btn-open:hover .menu-btn-icon,
 .menu-btn-open:focus .menu-btn-icon {
-<<<<<<< Updated upstream
-  width: 24px;
-  height: 16px;
-=======
   width: 32px;
   height: 32px;
 } */
@@ -90,11 +86,8 @@
 .menu-btn-close:hover .menu-icon-close,
 .menu-btn-close:focus .menu-icon-close {
   transform: scale(1.4286);
-<<<<<<< Updated upstream
-=======
   fill: var(--accent-color);
   outline: none;
->>>>>>> Stashed changes
 }
 .mob-menu-link {
   font-family: 'Montserrat-500', sans-sarif;
