@@ -6,10 +6,7 @@
         </symbol>
         <symbol id="menu-icon-open" viewBox="0 0 28 28" >
             <path d="M3.5 14H24.5M3.5 7H24.5M3.5 21H24.5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </symbol>    
-        <symbol id="menu-icon-close" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19.8334 8.16675L8.16669 19.8334M8.16669 8.16675L19.8334 19.8334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </symbol>      
+        </symbol>          
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14.5833 0.833252H5.41665C2.88534 0.833252 0.833313 2.88528 0.833313 5.41658V14.5833C0.833313 17.1146 2.88534 19.1666 5.41665 19.1666H14.5833C17.1146 19.1666 19.1666 17.1146 19.1666 14.5833V5.41658C19.1666 2.88528 17.1146 0.833252 14.5833 0.833252Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -34,11 +31,9 @@
         <symbol id="icon-burger" viewBox="0 0 32 32">
             <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.8571" d="M2.286 16h27.429M2.286 6.857h27.429M2.286 25.143h27.429"></path>
         </symbol>
-        <symbol id="icon-close" viewBox="0 0 32 32">
-<path d="M32 3.224l-3.224-3.224-12.776 12.776-12.776-12.776-3.224 3.224 12.776 12.776-12.776 12.776 3.224 3.224 12.776-12.776 12.776 12.776 3.224-3.224-12.776-12.776 12.776-12.776z"></path>
+<symbol id="icon-close" viewBox="0 0 32 32">
+<path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
 </symbol>
-
-
 <symbol id="ukr" viewBox="0 0 40 32">
 <path fill="#ffd700" style="fill: var(--color1, #ffd700)" d="M40.209 0.495h-39.902v29.694h39.902v-29.694z"></path>
 <path fill="#0057b7" style="fill: var(--color2, #0057b7)" d="M0.307 0.495h39.902v14.848h-39.902v-14.848z"></path>
