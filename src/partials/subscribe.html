@@ -7,6 +7,35 @@
       finest ingredients and handcrafted with the utmost care, each piece is a
       work of art that is sure to please.
     </p>
-    <button type="button" class="subscribe-btn">Subscribe</button>
+    <button type="button" class="subscribe-btn" data-explore-open>
+      Subscribe
+    </button>
+  </div>
+  <div class="subscribe-backdrop is-hidden" data-explore>
+    <div class="data-explore">
+      <form class="subscribe-form">
+        <h2 class="subscribe-modal-title">
+          Explore our<br />
+          <span class="subscribe-new-chocolate">new chocolate</span> first!
+        </h2>
+      </form>
+      <button type="button" class="subscribe-modal-close" data-explore-close>
+        <svg widgh="24" height="24" class="data-explore-close">
+          <use href="../img/icons.svg#menu-icon-close"></use>
+        </svg>
+      </button>
+      <label class="subscribe-modal-submit">
+        <input
+          type="email"
+          class="subscribe-submit-input"
+          placeholder="Enter your email"
+          placeholder-color
+          required
+        />
+        <button type="submit" class="subscribe-submit-btn" data-explore-close>
+          Submit
+        </button>
+      </label>
+    </div>
   </div>
 </section>
