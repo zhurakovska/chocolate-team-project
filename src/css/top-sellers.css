@@ -35,7 +35,19 @@
   background: #fafafa;
 }
 
+
 .top-sellers-text {
+=======
+.container {
+  width: 100%;
+}
+.best-sellers-text {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+/* .top-sellers-text {
+  order: 1;
   font-family: 'Montserrat-400', sans-serif;
   text-align: left;
   max-width: 306px;
@@ -44,7 +56,7 @@
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
   color: var(--primary-dark-color);
-}
+} */
 .buy-modal-btn {
   display: block;
   order: 2;
