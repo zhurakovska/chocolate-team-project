@@ -1,5 +1,6 @@
 .reviews {
   overflow: hidden;
+  background-color: var(--white-color-100);
 }
 
 .reviews-title {
@@ -344,6 +345,7 @@
     top: 50%;
     transform: translateY(-50%);
     margin-left: 107px;
+    box-shadow: 2.72246px 0px 0px rgba(0, 0, 0, 0.1);
   }
 }
 /* Swiper */
