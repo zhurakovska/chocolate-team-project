@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --font-family: 'Montserrat', sans-serif;
   --fw-normal: 400;
   --fw-medium: 500;
@@ -12,7 +12,7 @@
   --white-color-100: #fafafa;
   --input-color: rgba(64, 64, 64, 0.3);
   --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .how-its-made-title {
   font-family: 'Montserrat-600', sans-serif;
@@ -44,7 +44,14 @@
 .how-its-img-wrapper {
   position: relative;
 }
-
+@media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .how-its-img {
+    background-image: (rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(./src/img/how-its-made/mob-ver@2x.png);
+  }
+}
 .youtube {
   font-family: 'Montserrat-600', sans-serif;
   font-size: 18px;
@@ -95,6 +102,15 @@
     border-radius: 15px;
   }
 
+  @media (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .how-its-img {
+      background-image: (rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(./src/img/how-its-made/table-ver@2x.png);
+    }
+  }
+
   .how-its-made-title {
     margin: 0;
     padding-bottom: 50px;
@@ -132,8 +148,17 @@
     width: 600px;
     height: 400px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(/src/img/how-its-made/desktop-ver.png);
+      url(./src/img/how-its-made/desktop-ver.png);
     border-radius: 15px;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .how-its-img {
+      background-image: (rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(./src/img/how-its-made/desktop-ver@2x.png);
+    }
   }
 
   .how-its-made-cont {
