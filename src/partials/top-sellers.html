@@ -1,37 +1,110 @@
 <!-- BEST-SELLERS -->
     <section class="best-sellers">
-      <div class="container">
-        <div class="best-sellers-container">
-          <h2 class="best-sellers-title">
-            TOP <span class="best-sellers-title-dark">SELLERS</span>
-          </h2>
+      <div class="container best-sellers-container">
+        <h2 class="best-sellers-title">
+          TOP <span class="best-sellers-title-dark">SELLERS</span>
+        </h2>
+        <div class="best-sellers-content">
+        <!-- <div class="best-sellers-card-set"> -->
+        <div class="best-sellers-box">
           <!-- <div class="best-sellers-card-set"> -->
-          <img
-            class="best-sellers-img"
-            src="./top-sellers-images/topsallers-img-mob-1.jpg"
-            alt="cocoa"
-          />
+          <picture>
+            <source
+              srcset="./top-sellers-images/topsallers-img-desc-1.jpg x1, ./top-sellers-images/topsallers-img-desc-1@2x 2x"
+              media="(min-widht: 1200px)"
+            />
+            <source
+              srcset="./top-sellers-images/topsallers-img-tab-1.jpg x1, ./top-sellers-images/topsallers-img-tab-1@ 2x"
+              media="(min-widht: 768px)"
+            />
+            <source
+              srcset="./top-sellers-images/topsallers-img-mob-1.jpg x1, ./top-sellers-images/topsallers-img-mob-1@2x 2x"
+              media="(min-widht: 375px)"
+            />
+            <img
+              src="./top-sellers-images/topsallers-img-mob-1.jpg"
+              alt=""
+              class="best-sellers-image"
+            />
+          </picture>
           <p class="best-sellers-text">
             Crazy enough chocolate originates from a bean just like the coffee
             bean called Cacao. Cacao has been around for thousands of years and
             was first discovered by the Native American tribe called the Mayans.
           </p>
+        </div>
+        <div class="best-sellers-box">
+         
+          <picture>
+            <source
+              srcset="
+              ./top-sellers-images/topsallers-img-desc-2.jpg x1, 
+              ./top-sellers-images/topsallers-img-desc-2@2x 2x"
+              media="(min-widht: 1200px)"
+            />
+            <source
+              srcset="
+              ./top-sellers-images/topsallers-img-tab-2.jpg x1, 
+              ./top-sellers-images/topsallers-img-tab-2@2x"
+              media="(min-widht: 768px)"
+            />
+            <source
+              srcset="
+                ./top-sellers-images/topsallers-img-mob-2.jpg 1x,
+                ./top-sellers-images/topsallers-img-mob-2@2x
+              "
+              media="(min-widht: 375px)"
+            />
+            <img
+              src="./top-sellers-images/topsallers-img-mob-2.jpg"
+              alt=""
+              class="best-sellers-image"
+            />
+          
+
+          <!-- </div> -->
+          <!-- <div class="div best-sellers-options"> -->
+
+          <button class="buy-modal-btn" data-modal-open type="button">
+            Buy now
+          </button>
+          </div>
+          </picture>
+          <div class="best-sellers-box">
+          <img
+            srcset="./top-sellers-images/topsallers-img-desc-3@2x.jpg 2x"
+            src="./top-sellers-images/topsallers-img-desc-3.jpg"
+            alt=""
+            class="best-sellers-image best-sellers-image-ninja"
+          /></div>
+          <!-- </div> -->
+        </div>
+        <!-- <div class="best-sellers-container-content">
+          <img
+            class="best-sellers-img"
+            src="./top-sellers-images/topsallers-img-mob-1.jpg"
+            alt="cocoa"
+          />
+          
           <img
             class="best-sellers-img"
             src="./top-sellers-images/topsallers-img-mob-2.jpg"
             alt="chocolate"
           />
-          <!-- </div> -->
+         
 
-          <button class="buy-modal-btn" data-modal-open type="button">
-            Buy now
-          </button>
-        </div>
+          
+ <img
+            class="best-sellers-img best-sellers-img-ninja"
+            src="./top-sellers-images/topsallers-img-desc-3.jpg"
+            alt="cocoa"
+          />
+        </div> -->
       </div>
     </section>
 
     <!-- MODAL -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="buy-modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="12" height="12">
@@ -39,7 +112,7 @@
           </svg>
         </button>
         <h2 class="buy-modal-title">
-          BUY <span class="buy-modal-title-now">NOW</span>
+          buy <span class="buy-modal-title-now">now</span>
         </h2>
         <ul class="buy-modal-list">
           <li class="buy-modal-item">
