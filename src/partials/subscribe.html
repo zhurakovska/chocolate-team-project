@@ -29,12 +29,11 @@
           type="email"
           class="subscribe-submit-input"
           placeholder="Enter your email"
-          placeholder-color
           required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          title="Enter your email"
         />
-        <button type="submit" class="subscribe-submit-btn" data-explore-close>
-          Submit
-        </button>
+        <button type="submit" class="subscribe-submit-btn">Submit</button>
       </label>
     </div>
   </div>
