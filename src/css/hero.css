@@ -88,6 +88,14 @@ body {
     background-color: transparent;
     color: var(--white-color);
     margin-right: auto;
+    fill: var(--accent-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn-scroll:hover,
+.hero-btn-scroll:focus {
+    color: var(--accent-color);
+    fill: var(--white-color);
 }
 
 .hero-btn-circle {
@@ -95,6 +103,12 @@ body {
     background-color: var(--white-color);
     margin-left: 12px;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+.hero-btn-scroll:hover .hero-btn-circle,
+.hero-btn-scroll:focus .hero-btn-circle {
+    background-color: var(--accent-color);
 }
 
 
