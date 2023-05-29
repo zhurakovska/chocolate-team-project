@@ -1,18 +1,6 @@
-/* :root {
-  --font-family: 'Montserrat', sans-serif;
-  --fw-normal: 400;
-  --fw-medium: 500;
-  --fw-semibold: 600;
-  --fw-bold: 700;
-  --primary-dark-color: #111111;
-  --secondary-dark-color: #1e1823;
-  --accent-color: #fd9222;
-  --hover-color: #fcf1e0;
-  --white-color: #ffffff;
-  --white-color-100: #fafafa;
-  --input-color: rgba(64, 64, 64, 0.3);
-  --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+ .how-its-made {
+  background-color: var(--white-color-100);
+ }
 
 .how-its-made-title {
   font-family: 'Montserrat-600', sans-serif;
@@ -21,6 +9,8 @@
   text-transform: uppercase;
   margin-bottom: 32px;
   color: var(--primary-dark-color);
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .made-title-accent {
@@ -58,7 +48,14 @@
   line-height: 1.3;
   max-width: 307px;
   color: var(--primary-dark-color);
-  margin: 40px 0 20px;
+  margin-bottom: 20px;
+}
+
+.youtube-wrapper {
+    background-color: var(--white-color);
+    border-radius: 15px;
+    padding: 20px 14px;
+    margin-top: 20px;
 }
 
 .how-its-made-items {
@@ -68,6 +65,9 @@
   letter-spacing: -0.02em;
   max-width: 291px;
   color: var(--primary-dark-color);
+}
+
+.how-its-made-items:not(:last-child) {
   margin-bottom: 18px;
 }
 
@@ -113,20 +113,23 @@
 
   .how-its-made-title {
     margin: 0;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
   }
 
   .youtube {
-    margin: 0;
-    max-width: 376px;
-    padding-left: 32px;
-    padding-top: 52px;
     margin-bottom: 28px;
+    max-width: 376px;
   }
+  .youtube-wrapper {
+    padding: 32px;
+  }
+
   .how-its-made-list {
     max-width: 500px;
-    padding-left: 32px;
-    padding-bottom: 32px;
+    line-height: 1.28;
   }
 
   .how-its-made-items {
@@ -167,9 +170,17 @@
     gap: 20px;
   }
 
+  .how-its-made-items:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
   .youtube {
     padding: 0;
     max-width: 350px;
+  }
+
+  .youtube-wrapper {
+    margin: 0;
   }
 
   .how-its-made-list {
