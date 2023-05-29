@@ -7,7 +7,7 @@
     
     font-family: 'Montserrat-600', sans-serif;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.28;
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: var(--primary-dark-color);
@@ -17,11 +17,11 @@
     color: var(--accent-color);
 }
 
-.components-text {
+.components-description {
     font-family: 'Montserrat-400', sans-serif;
     margin: 0 auto;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.28;
     text-align: center;
     letter-spacing: -0.02em;
     color: var(--primary-dark-color);
@@ -41,10 +41,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 25px;
     position: relative;
     border-radius: 15px;
     overflow: hidden;
+}
+
+.components-item-img {
+    margin-bottom: 25px;
 }
 
 .components-item:hover .components-top-wrapper {
@@ -64,11 +67,17 @@
     background-color: var(--secondary-dark-color);
 }
 
+.components-item-crips {
+    background-color: var(--white-color);
+    border: 1px solid var(--accent-color);
+    color: ;
+}
+
 .components-item-name {
     margin-right: auto;
     font-family: 'Montserrat-600', sans-serif;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: var(--white-color);
@@ -98,7 +107,7 @@
 .components-top-name {
     font-family: 'Montserrat-600', sans-serif;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.28;
     letter-spacing: -0.03em;
     text-transform: uppercase;
     margin-bottom: 8px;
@@ -106,13 +115,16 @@
 
 }
 
+.components-top-buttons {
+    display: flex;
+}
+
 
 .components-top-ingredient {
-    font-family: 'Montserrat-400', sans-serif;
-    max-width: 81px;
-    margin-right: 8px;
+    font-family: 'Montserrat-400', sans-serif; 
+    margin-right: 6px;
     font-size: 10px;
-    line-height: 1.2;
+    line-height: 1.28;
     padding: 6px 16px;
     color: var(--white-color);
     background-color: var(--accent-color);
@@ -123,13 +135,12 @@
 
 .components-top-benefit {
     font-family: 'Montserrat-400', sans-serif;
-    max-width: 96px;
     padding: 6px 16px;
     background-color: transparent;
     border: 1px solid var(--accent-color);
     border-radius: 35px;
     font-size: 10px;
-    line-height: 1.2;
+    line-height: 1.28;
     color: var(--primary-dark-color);
 }
 
@@ -137,7 +148,7 @@
     font-family: 'Montserrat-400', sans-serif;
     margin-top: 14px;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     color: var(--primary-dark-color);
 }
@@ -152,23 +163,31 @@
     .components-title {
         margin: 0 auto;
         max-width: 410px;
+        font-size: 24px;
         line-height: 1.16;
         margin-bottom: 28px;
     }
 
-    .components-text {
+    .components-description {
         max-width: 486px;
     }
 
     .components-list {
+        margin-top: 50px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 32px;
+        max-height: 572px;
     }
 
     .components-item {
         width: calc((100% - 32px) /2);
+        height: 270px;
+    }
+
+    .components-item-nuts {
+        order: 2;
     }
   }
   @media screen and (min-width: 1200px) {
@@ -187,5 +206,16 @@
     .components-top-wrapper {
         padding: 20px;
         overflow: auto;
+    }
+
+    .components-item-nuts {
+        order: unset;
+    }
+
+    .components-item-img {
+        margin-bottom: 36px;
+        margin-right: 8px;
+        width: 206px;
+        height: 160px;
     }
   }

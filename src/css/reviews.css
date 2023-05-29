@@ -1,3 +1,7 @@
+.reviews {
+  overflow: hidden;
+}
+
 .reviews-title {
   font-family: 'Montserrat-600', sans-serif;
   margin-bottom: 74px;
@@ -14,13 +18,13 @@
 
 .reviews-item {
   position: relative;
-  flex-grow: 1;
   max-width: 335px;
   padding: 56px 18px 42px 18px;
   background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
   border-radius: 15px;
+  opacity: 0;
 }
 
 .reviews-img {
@@ -45,6 +49,9 @@
   text-align: center;
   letter-spacing: -0.02em;
   color: rgba(17, 17, 17, 0.7);
+}
+.reviews-text-grow {
+  margin-bottom: 16px;
 }
 .reviews-btn {
   font-family: 'Montserrat-600', sans-serif;
@@ -91,6 +98,7 @@
     max-width: 360px;
     padding-left: 24px;
     padding-right: 24px;
+    opacity: 1;
   }
 }
 
@@ -344,6 +352,10 @@
   overflow: visible;
 }
 
+.swiper-slide-active,
+.swiper-slide-next {
+  opacity: 1;
+}
 .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
