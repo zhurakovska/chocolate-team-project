@@ -31,8 +31,6 @@
 .top-sellers {
   background: #fafafa;
 }
-<<<<<<< Updated upstream
-=======
 .container {
   width: 100%;
 }
@@ -40,9 +38,8 @@
   text-align: left;
   margin-top: 20px;
   margin-bottom: 32px;
->>>>>>> Stashed changes
 
-.top-sellers-text {
+/* .top-sellers-text {
   order: 1;
   font-family: 'Montserrat-400', sans-serif;
   text-align: left;
@@ -51,7 +48,7 @@
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
   color: var(--primary-dark-color);
-}
+} */
 .buy-modal-btn {
   display: block;
   order: 3;
