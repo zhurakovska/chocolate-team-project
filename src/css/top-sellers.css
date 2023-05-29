@@ -31,6 +31,16 @@
 .top-sellers {
   background: #fafafa;
 }
+<<<<<<< Updated upstream
+=======
+.container {
+  width: 100%;
+}
+.best-sellers-text {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 32px;
+>>>>>>> Stashed changes
 
 .top-sellers-text {
   order: 1;
