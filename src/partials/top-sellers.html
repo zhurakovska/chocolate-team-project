@@ -1,92 +1,89 @@
 <!-- Top-SELLERS -->
-<section class="top-sellers">
+<section class="top-sellers" id="sellers">
   <div class="container top-sellers-container">
     <h2 class="top-sellers-title">
       Top <span class="top-sellers-title-dark">Sellers</span>
     </h2>
     <div class="top-sellers-thumb">
-      <picture>
-        <source
-          srcset="
-            ./img/top-sellers/topsallers-img-desc-1@2x.jpg 1x,
-            ./img/top-sellers/topsallers-img-desc-1@2x.jpg 2x
-          "
-          media="(min-width: 1200px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="
-            ./img/top-sellers/topsallers-img-tab-1@2x.jpg 1x,
-            ./img/top-sellers/topsallers-img-tab-1@2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="./img/top-sellers/topsallers-img-mob-1@2x.jpg"
-          media="(max-width: 767px)"
-          type="image/jpeg"
-        />
-        <img
-          class="top-sellers-img"
-          src="./img/top-sellers/topsallers-img-mob-1.jpg"
-          alt="Nuts and chocolates"
-          width="368"
-          height="464"
-        />
-      </picture>
-      <picture class="top-sellers-img-order">
-        <source
-          srcset="
-            ./img/top-sellers/topsallers-img-desc-2@2x.jpg 1x,
-            ./img/top-sellers/topsallers-img-desc-2@2x.jpg 2x
-          "
-          media="(min-width: 1200px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="
-            ./img/top-sellers/topsallers-img-tab-2@2x.jpg 1x,
-            ./img/top-sellers/topsallers-img-tab-2@2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="./img/top-sellers/topsallers-img-mob-2@2x.jpg"
-          media="(max-width: 767px)"
-          type="image/jpeg"
-        />
-        <img
-          class="top-sellers-img"
-          src="./img/top-sellers/topsallers-img-mob-2.jpg"
-          alt="Nuts and chocolates"
-          width="368"
-          height="464"
-        />
-      </picture>
-      <picture>
-        <img
-          srcset="./img/top-sellers/topsallers-img-desc-3.jpg"
-          class="top-sellers-img top-sellers-img-hidden"
-          src="./img/top-sellers/topsallers-img-desc-3.jpg"
-          alt="Dark chocolates"
-          width="368"
-          height="464"
-        />
-      </picture>
-  
-
-    <!-- <div class="top-sellers-wrapper"> -->
-      <p class="top-sellers-text">
-        Crazy enough chocolate originates from a bean just like the coffee bean
-        called Cacao. Cacao has been around for thousands of years and was first
-        discovered by the Native American tribe called the Mayans.
-      </p>
-      <button class="buy-modal-btn" data-order-open type="button">
+        <picture class="top top-1 top-sellers-picture">
+          <source
+            srcset="
+              ./img/top-sellers/topsallers-img-desc-1@2x.jpg 1x,
+              ./img/top-sellers/topsallers-img-desc-1@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              ./img/top-sellers/topsallers-img-tab-1@2x.jpg 1x,
+              ./img/top-sellers/topsallers-img-tab-1@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="./img/top-sellers/topsallers-img-mob-1@2x.jpg"
+            media="(max-width: 767px)"
+            type="image/jpeg"
+          />
+          <img
+            class="top-sellers-img"
+            src="./img/top-sellers/topsallers-img-mob-1.jpg"
+            alt="Nuts and chocolates"
+        
+          />
+        </picture>
+            <p class="top top-2 top-sellers-text">
+            Crazy enough chocolate originates from a bean just like the coffee
+            bean called Cacao. Cacao has been around for thousands of years and
+            was first discovered by the Native American tribe called the Mayans.
+          </p>
+    <picture class="top top-3 top-sellers-picture">
+          <source
+            srcset="
+              ./img/top-sellers/topsallers-img-desc-2@2x.jpg 1x,
+              ./img/top-sellers/topsallers-img-desc-2@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              ./img/top-sellers/topsallers-img-tab-2@2x.jpg 1x,
+              ./img/top-sellers/topsallers-img-tab-2@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="./img/top-sellers/topsallers-img-mob-2@2x.jpg"
+            media="(max-width: 767px)"
+            type="image/jpeg"
+          />
+          <img
+            class="top-sellers-img"
+            src="./img/top-sellers/topsallers-img-mob-2.jpg"
+            alt="Nuts and chocolates"
+        
+            
+          />
+        </picture>
+        <picture class="top top-4 top-sellers-picture">
+          <img
+            srcset="./img/top-sellers/topsallers-img-desc-3.jpg"
+            class="top-sellers-img top-sellers-img-hidden"
+            src="./img/top-sellers/topsallers-img-desc-3.jpg"
+            alt="Dark chocolates"
+           
+            
+          />
+        </picture>
+      <button class="top top-5 buy-modal-btn" data-order-open type="button">
         Buy now
       </button>
-        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -95,7 +92,7 @@
 <div class="backdrop-buy-now is-hidden" data-order>
   <div class="buy-now-modal">
     <button type="button" class="buy-now-btn-close" data-order-close>
-      <svg class="buy-now-icon" width="24" height="24">
+      <svg class="buy-now-icon" width="12" height="12">
         <use href="./img/icons.svg#icon-close"></use>
       </svg>
     </button>
