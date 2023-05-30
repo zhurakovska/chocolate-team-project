@@ -166,6 +166,7 @@
   flex-direction: column;
   padding: 32px 24px;
   background-color: var(--white-color);
+  border-radius: 15px;
 }
 .form-thumb {
   display: flex;
