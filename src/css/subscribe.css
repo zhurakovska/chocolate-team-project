@@ -15,306 +15,317 @@
   } */
 
 .subscribe-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../img/subscribe-img/mob-subscribe-img.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../img/subscribe-img/mob-subscribe-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .subscribe-container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 62px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 62px 20px;
 }
 
 .subscribe-title {
-  font-weight: var(--fw-medium);
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: var(--white-color);
-  max-width: 291px;
-  margin-bottom: 24px;
+    font-weight: var(--fw-medium);
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    max-width: 291px;
+    margin-bottom: 24px;
 }
 
 .subscribe-text {
-  font-family: 'Montserrat-400';
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: var(--white-color);
-  max-width: 326px;
-  max-height: 108px;
-  margin-bottom: 24px;
+    font-family: 'Montserrat-400';
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--white-color);
+    max-width: 326px;
+    max-height: 108px;
+    margin-bottom: 24px;
 }
 
 .subscribe-btn {
-  font-family: 'Montserrat-600';
-  font-size: 14px;
-  line-height: 1.21;
-  min-width: 128px;
-  padding: 12px 28px;
-  border-radius: 100px;
-  border: none;
-  background-color: var(--accent-color);
-  color: var(--white-color);
+    font-family: 'Montserrat-600';
+    font-size: 14px;
+    line-height: 1.21;
+    min-width: 128px;
+    padding: 12px 28px;
+    border-radius: 100px;
+    border: none;
+    background-color: var(--accent-color);
+    color: var(--white-color);
 }
 
 .subscribe-btn:hover {
-  color: var(--accent-color);
-  background-color: var(--hover-color);
+    color: var(--accent-color);
+    background-color: var(--hover-color);
 }
 
 /* --------------------Модалка______________ */
 
 .subscribe-backdrop {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(46, 47, 66, 0.5);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  opacity: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 47, 66, 0.5);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 1;
 }
 
 .is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
 }
 
 .subscribe-backdrop.is-hidden .data-explore {
-  transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
 }
 
 .data-explore {
-  width: 311px;
-  height: 350px;
-  background-color: var(--white-color-100);
-  border-radius: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 201px 24px 32px 24px;
-  transform: translate(-50%, -50%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  opacity: 1;
-  background-image: url(../img/subscribe-img/chocolate-mob.jpg);
-  background-size: 311px 169px;
-  background-repeat: no-repeat;
-  background-position: top;
+    width: 311px;
+    height: 350px;
+    background-color: var(--white-color-100);
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 201px 24px 32px 24px;
+    transform: translate(-50%, -50%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 1;
+    background-image: url(../img/subscribe-img/chocolate-mob.jpg);
+    background-size: 311px 169px;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 [data-explore] {
-  z-index: 1;
+    z-index: 1;
 }
 
 .subscribe-modal-close {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-  border: none;
-  width: 24px;
-  height: 24px;
-  background-color: transparent;
-  color: var(--white-color);
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  padding: 0;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    border: none;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    color: var(--white-color);
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-modal-close:hover,
 .subscribe-modal-close:focus {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .data-explore-close {
-  fill: currentColor;
+    fill: currentColor;
 }
+
 .subscribe-modal-close:hover .data-explore-close,
 .subscribe-modal-close:focus .data-explore-close {
-  transform: scale(1.4286);
+    transform: scale(1.4286);
 }
 
 .subscribe-modal-title {
-  font-family: 'Montserrat-600';
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: var(--primary-dark-color);
-  margin-bottom: 24px;
+    font-family: 'Montserrat-600';
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--primary-dark-color);
+    margin-bottom: 24px;
 }
 
 .subscribe-new-chocolate {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .subscribe-modal-img {
-  display: block;
-  width: 311px;
-  overflow: hidden;
+    display: block;
+    width: 311px;
+    overflow: hidden;
 }
 
 .subscribe-modal-submit {
-  display: flex;
-  width: 263px;
-  height: 45px;
-  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    display: flex;
+    width: 263px;
+    height: 45px;
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
 
-  position: relative;
+    position: relative;
 }
 
 .subscribe-submit-input {
-  border: none;
-  background-color: transparent;
-  padding-left: 18px;
-  border: 1.5px solid rgba(17, 17, 17, 0.05);
-  border-radius: 25px;
+    border: none;
+    background-color: transparent;
+    padding-left: 18px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    border-radius: 25px;
 }
 
 .subscribe-submit-btn {
-  font-family: 'Montserrat-600';
-  font-size: 14px;
-  line-height: 1.21;
-  text-align: center;
-  color: var(--white-color);
-  top: 273px;
-  right: 24px;
-  border-radius: 100px;
-  width: 100px;
-  height: 45px;
-  border: none;
-  background-color: var(--accent-color);
-  position: absolute;
-  padding: 0;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: 'Montserrat-600';
+    font-size: 14px;
+    line-height: 1.21;
+    text-align: center;
+    color: var(--white-color);
+    top: 273px;
+    right: 24px;
+    border-radius: 100px;
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color: var(--accent-color);
+    position: absolute;
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-submit-btn:hover,
 .subscribe-submit-btn:focus {
-  color: var(--accent-color);
-  background-color: var(--hover-color);
+    color: var(--accent-color);
+    background-color: var(--hover-color);
 }
 
 input::placeholder {
-  color: rgba(40, 40, 40, 0.3);
+    color: rgba(40, 40, 40, 0.3);
 }
 
-/* .subscribe-hidden {
-     display: none;
- } */
+.subscribe-submit-input:not(:focus):not(:placeholder-shown):valid {
+    background-color: rgba(0, 128, 0, 0.5);
+
+}
+
+.subscribe-submit-input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: rgba(255, 0, 0, 0.5)
+}
+
 
 /* ----------------------------375px-------------------------- */
 
-@media screen and (min-width: 375px) {
-}
+@media screen and (min-width: 375px) {}
 
 /* ----------------------------768px----------------------------- */
 
 @media screen and (min-width: 768px) {
-  .subscribe-container {
-    max-width: 531px;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
+    .subscribe-container {
+        max-width: 531px;
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
 
-  .subscribe-title {
-    font-weight: var(--fw-semibold);
-    font-size: 24px;
-    line-height: 1.17;
-    text-transform: uppercase;
-    max-width: 376px;
-    margin-bottom: 24px;
-  }
+    .subscribe-title {
+        font-weight: var(--fw-semibold);
+        font-size: 24px;
+        line-height: 1.17;
+        text-transform: uppercase;
+        max-width: 376px;
+        margin-bottom: 24px;
+    }
 
-  .subscribe-text {
-    max-width: 100%;
-    height: 72px;
-  }
+    .subscribe-text {
+        max-width: 100%;
+        height: 72px;
+    }
 
-  .subscribe-btn {
-    font-size: 18px;
-    line-height: 1.22;
-    min-width: 172px;
-    padding: 14px 40px;
-  }
+    .subscribe-btn {
+        font-size: 18px;
+        line-height: 1.22;
+        min-width: 172px;
+        padding: 14px 40px;
+    }
 
-  .subscribe-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../img/subscribe-img/tablet-subscribe-img.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+    .subscribe-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url(../img/subscribe-img/tablet-subscribe-img.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 
-  .data-explore {
-    width: 538px;
-    height: 412px;
-    top: 50%;
-    left: 50%;
-    padding: 236px 40px 40px 40px;
-    transform: translate(-50%, -50%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    opacity: 1;
-    background-image: url(../img/subscribe-img/chocolate-tablet.jpg);
-    background-size: 538px 196px;
-  }
+    .data-explore {
+        width: 538px;
+        height: 412px;
+        top: 50%;
+        left: 50%;
+        padding: 236px 40px 40px 40px;
+        transform: translate(-50%, -50%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 1;
+        background-image: url(../img/subscribe-img/chocolate-tablet.jpg);
+        background-size: 538px 196px;
+    }
 
-  .subscribe-modal-close {
-    top: 24px;
-    right: 24px;
-    width: 28px;
-    height: 28px;
-  }
+    .data-explore-close {
+        width: 14px;
+        height: 14px;
+    }
 
-  .subscribe-modal-title {
-    font-size: 24px;
-    line-height: 1.17;
-    margin-bottom: 28px;
-  }
+    .subscribe-modal-close {
+        top: 24px;
+        right: 24px;
+        width: 28px;
+        height: 28px;
+    }
 
-  .subscribe-submit-input {
-    width: 313px;
-    padding-left: 24px;
-  }
+    .subscribe-modal-title {
+        font-size: 24px;
+        line-height: 1.17;
+        margin-bottom: 28px;
+    }
 
-  .subscribe-modal-submit {
-    width: 458px;
-    height: 52px;
-  }
+    .subscribe-submit-input {
+        width: 313px;
+        padding-left: 24px;
+    }
 
-  .subscribe-submit-btn {
-    width: 137px;
-    height: 52px;
-    top: 320px;
-    right: 40px;
-  }
+    .subscribe-modal-submit {
+        width: 458px;
+        height: 52px;
+    }
+
+    .subscribe-submit-btn {
+        width: 137px;
+        height: 52px;
+        top: 320px;
+        right: 40px;
+    }
 }
 
 /* -------------------------------1200px-------------------------------- */
 
 @media screen and (min-width: 1200px) {
-  .subscribe-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../img/subscribe-img/desktop-subscribe-img.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+    .subscribe-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url(../img/subscribe-img/desktop-subscribe-img.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 }
