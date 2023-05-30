@@ -206,8 +206,7 @@
     border: 1px solid var(--accent-color);
     border-radius: 1px;
     position: absolute;
-    bottom: -8px;
-    width: 24px;
+    bottom: 22px;
     height: 0;
     outline: none;
     width: 100%;
