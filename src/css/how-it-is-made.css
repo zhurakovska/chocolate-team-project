@@ -1,6 +1,6 @@
- .how-its-made {
+.how-its-made {
   background-color: var(--white-color-100);
- }
+}
 
 .how-its-made-title {
   font-family: 'Montserrat-600', sans-serif;
@@ -39,7 +39,7 @@
   (min-resolution: 2dppx) {
   .how-its-img {
     background-image: (rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(./src/img/how-its-made/mob-ver@2x.png);
+      url(./src/img/how-its-made/mob-ver@2x.jpg);
   }
 }
 .youtube {
@@ -52,10 +52,10 @@
 }
 
 .youtube-wrapper {
-    background-color: var(--white-color);
-    border-radius: 15px;
-    padding: 20px 14px;
-    margin-top: 20px;
+  background-color: var(--white-color);
+  border-radius: 15px;
+  padding: 20px 14px;
+  margin-top: 20px;
 }
 
 .how-its-made-items {
@@ -107,7 +107,7 @@
     (min-resolution: 2dppx) {
     .how-its-img {
       background-image: (rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(./src/img/how-its-made/table-ver@2x.png);
+        url(./src/img/how-its-made/table-ver@2x.jpg);
     }
   }
 
@@ -151,7 +151,7 @@
     width: 600px;
     height: 400px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(./src/img/how-its-made/desktop-ver.png);
+      url(./src/img/how-its-made/desktop-ver.jpg);
     border-radius: 15px;
   }
 
@@ -160,7 +160,7 @@
     (min-resolution: 2dppx) {
     .how-its-img {
       background-image: (rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(./src/img/how-its-made/desktop-ver@2x.png);
+        url(./src/img/how-its-made/desktop-ver@2x.jpg);
     }
   }
 
