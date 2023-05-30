@@ -229,5 +229,6 @@
 
     .components-top-text-height {
         max-height: 140px;
+        overflow: hidden;
     }
   }
