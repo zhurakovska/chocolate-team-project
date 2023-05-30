@@ -164,8 +164,8 @@
     width: 1200px;
   }
   .logo-header {
-    padding-top: 26px;
-    padding-bottom: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
     font-size: 18px;
     line-height: 1.1;
   }
@@ -181,6 +181,9 @@
     gap: 24px;
   }
   .nav-link {
+    display: block;
+    padding-top: 26px;
+    padding-bottom: 34px;
     font-family: 'Montserrat-500', sans-sarif;
     font-size: 14px;
     line-height: 1.1;
