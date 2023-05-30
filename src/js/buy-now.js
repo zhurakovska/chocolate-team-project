@@ -1,13 +1,16 @@
 
 (() => {
   const refs = {
-    openModalBtn: document.querySelector("[data-order-open]"),
+    openModalBtn: document.querySelectorAll("[data-order-open]"),
     closeModalBtn: document.querySelector("[data-order-close]"),
     modal: document.querySelector("[data-order]"),
   };
+  refs.openModalBtn.forEach((btn) => {
+       btn.addEventListener("click", toggleModal); 
+  })
 
   if (refs.openModalBtn && refs.closeModalBtn && refs.modal) {
-    refs.openModalBtn.addEventListener("click", toggleModal);
+
     refs.closeModalBtn.addEventListener("click", toggleModal);
   }
 

@@ -176,6 +176,7 @@
           type="text"
           placeholder="Name"
           name="user_name"
+          id="user_name"
           required
           pattern="^[a-zA-Z]+$"
           minlength="2"
@@ -185,6 +186,7 @@
           type="text"
           placeholder="Surname"
           name="user_surname"
+          id="user_surname"
           required
           pattern="^[a-zA-Z]+$"
           minlength="2"
@@ -197,6 +199,7 @@
         type="email"
         placeholder="Enter your email"
         name="user_email"
+        id="user_email"
         required
       />
 
@@ -208,16 +211,18 @@
       <input
         type="tel"
         name="tel"
+        id="tel"
         class="buy-now-input buy-now-input-tel"
         placeholder="Phone number"
       />
 
-      <label for="user_card" class="buy-now-label">Card number </label>
+      <label for="user_card" class="buy-now-label label-card">Card number </label>
       <input
         class="buy-now-input"
         type="text"
         placeholder="Enter card"
         name="user_card"
+        id="user_card"
         required
         pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
         title="xxxx-xxxx-xxxx-xxxx"
@@ -226,6 +231,7 @@
       <textarea
         class="buy-now-textarea"
         name="user_message"
+         id="user_message"
         rows="5"
         placeholder="Enter Text"
       ></textarea>

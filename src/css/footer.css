@@ -14,201 +14,191 @@
     --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
-
-
 .footer {
-    background-color: var(--secondary-dark-color);
-
+  background-color: var(--secondary-dark-color);
 }
 
 .footer-container {
-    padding: 32px 0;
-    position: relative;
+  padding: 32px 0;
+  position: relative;
 }
 
-
 .footer-container::after {
-    position: absolute;
-    top: 224px;
-    right: 20px;
-    display: inline-block;
-    content: '';
-    width: calc(100% - 40px);
-    height: 0px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: absolute;
+  top: 224px;
+  right: 20px;
+  display: inline-block;
+  content: '';
+  width: calc(100% - 40px);
+  height: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-slogan {
-    font-family: "Montserrat-500";
-    font-size: 24px;
-    line-height: 1.17;
-    letter-spacing: -0.02em;
-    color: var(--white-color);
-    max-width: 300px;
-    margin-bottom: 32px;
+  font-family: 'Montserrat-500';
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: var(--white-color);
+  max-width: 300px;
+  margin-bottom: 32px;
 }
 
 .footer-slogan-choco {
-    color: var(--accent-color);
-    padding-right: 8px;
+  color: var(--accent-color);
+  padding-right: 8px;
 }
 
 .footer-address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .footer-contact-us {
-    font-family: "Montserrat-500";
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: var(--white-color);
-    display: flex;
-    flex-direction: column;
-    max-width: 164px;
-    margin-bottom: 64px;
+  font-family: 'Montserrat-500';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  max-width: 164px;
+  margin-bottom: 64px;
 }
 
 .footer-contact-us-text {
-    font-family: "Montserrat-500";
-    margin-bottom: 14px;
+  font-family: 'Montserrat-500';
+  margin-bottom: 14px;
 }
 
 .footer-contact-us-tel {
-    font-family: "Montserrat-400";
-    color: var(--white-color);
+  font-family: 'Montserrat-400';
+  color: var(--white-color);
 }
-
+.footer-contact-us-tel:hover,
+.footer-contact-us-tel:focus {
+  color: var(--accent-color);
+}
 .footer-contact-us-tel-item {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .footer-contact-us-mail {
-    font-family: "Montserrat-400";
-    color: var(--white-color);
+  font-family: 'Montserrat-400';
+  color: var(--white-color);
 }
 
 .footer-socials {
-    display: flex;
-    gap: 14px;
-    position: absolute;
-    top: 120px;
-    right: 20px;
+  display: flex;
+  gap: 14px;
+  position: absolute;
+  top: 120px;
+  right: 20px;
 }
 
 .footer-inst-icon {
-    stroke: var(--white-color);
-    fill: transparent;
-    width: 22px;
-    height: 22px;
+  stroke: var(--white-color);
+  fill: transparent;
+  width: 22px;
+  height: 22px;
 }
 
 .footer-twitter-icon {
-    stroke: var(--white-color);
-    fill: transparent;
-    width: 22px;
-    height: 22px;
+  stroke: var(--white-color);
+  fill: transparent;
+  width: 22px;
+  height: 22px;
 }
 
 .footer-inst-icon:hover {
-    stroke: var(--accent-color);
+  stroke: var(--accent-color);
 }
 
 .footer-twitter-icon:hover {
-    stroke: var(--accent-color);
+  stroke: var(--accent-color);
 }
 
 .footer-navigation-list {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .footer-navigation-link {
-    font-family: 'Montserrat-500';
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: -0.02em;
-    color: var(--white-color);
+  font-family: 'Montserrat-500';
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: var(--white-color);
 }
-
-
-
-
-
-
 
 /* ----------------------------375px-------------------------- */
 
-@media screen and (min-width: 375px) {}
-
+@media screen and (min-width: 375px) {
+}
 
 /* ----------------------------768px----------------------------- */
 
 @media screen and (min-width: 768px) {
+  .footer-container {
+    padding: 50px 32px;
+  }
 
-    .footer-container {
-        padding: 50px 32px;
-    }
+  .footer-slogan-table {
+    display: flex;
+    gap: 124px;
+  }
 
-    .footer-slogan-table {
-        display: flex;
-        gap: 124px;
-    }
+  .footer-slogan {
+    font-family: 'Montserrat-500';
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: var(--white-color);
+    max-width: 300px;
+    margin-bottom: 32px;
+    margin-bottom: 78px;
+  }
 
-    .footer-slogan {
-        font-family: "Montserrat-500";
-        font-size: 28px;
-        line-height: 1.21;
-        letter-spacing: -0.02em;
-        color: var(--white-color);
-        max-width: 300px;
-        margin-bottom: 32px;
-        margin-bottom: 78px;
-    }
+  .footer-socials {
+    top: 50px;
+    right: 32px;
+    gap: 18px;
+  }
 
-    .footer-socials {
-        top: 50px;
-        right: 32px;
-        gap: 18px;
-    }
+  .footer-inst-icon {
+    width: 24px;
+    height: 24px;
+  }
 
-    .footer-inst-icon {
-        width: 24px;
-        height: 24px;
-    }
+  .footer-twitter-icon {
+    width: 24px;
+    height: 24px;
+  }
 
-    .footer-twitter-icon {
-        width: 24px;
-        height: 24px;
-    }
+  .footer-container::after {
+    top: 172px;
+    right: 32px;
+    width: calc(100% - 64px);
+  }
 
-    .footer-container::after {
-        top: 172px;
-        right: 32px;
-        width: calc(100% - 64px);
-    }
-
-    .footer-navigation-list {
-        flex-direction: row;
-        gap: 24px;
-    }
+  .footer-navigation-list {
+    flex-direction: row;
+    gap: 24px;
+  }
 }
-
-
 
 /* -------------------------------1200px-------------------------------- */
 
 @media screen and (min-width: 1200px) {
-    .footer-slogan-table {
-        gap: 543px;
-    }
+  .footer-slogan-table {
+    gap: 543px;
+  }
 
-    .footer-slogan {
-        margin-bottom: 86px;
-    }
+  .footer-slogan {
+    margin-bottom: 86px;
+  }
 
-    .footer-container::after {
-        top: 180px;
-    }
+  .footer-container::after {
+    top: 180px;
+  }
 }

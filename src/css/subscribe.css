@@ -61,7 +61,7 @@
   font-size: 14px;
   line-height: 1.21;
   min-width: 128px;
-  min-height: 41px;
+  padding: 12px 28px;
   border-radius: 100px;
   border: none;
   background-color: var(--accent-color);
@@ -133,7 +133,8 @@
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-modal-close:hover,
@@ -143,6 +144,10 @@
 
 .data-explore-close {
   fill: currentColor;
+}
+.subscribe-modal-close:hover .data-explore-close,
+.subscribe-modal-close:focus .data-explore-close {
+  transform: scale(1.4286);
 }
 
 .subscribe-modal-title {
@@ -247,7 +252,7 @@ input::placeholder {
     font-size: 18px;
     line-height: 1.22;
     min-width: 172px;
-    min-height: 50px;
+    padding: 14px 40px;
   }
 
   .subscribe-background {
