@@ -40,7 +40,7 @@ button {
 
 body {
   font-family: 'Montserrat-400', sans-serif;
-  /* background-color:  #E2E2E2; */
+  scroll-behavior: smooth;
 }
 
 .visually-hidden {
