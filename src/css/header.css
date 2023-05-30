@@ -130,11 +130,11 @@
 .menu-icon-soc-link {
   stroke: var(--white-color);
   outline: none;
+  transition: stroke var(--timing-function);
 }
 .header-icon-soc {
   color: currentColor;
   fill: transparent;
-  transition: var(--timing-function);
 }
 .menu-icon-soc-link:hover,
 .menu-icon-soc-link:focus {

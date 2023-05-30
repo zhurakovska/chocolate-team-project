@@ -73,6 +73,7 @@
 .footer-contact-link {
   font-family: 'Montserrat-400';
   color: var(--white-color);
+  transition: color var(--timing-function);
 }
 .footer-contact-link:hover,
 .footer-contact-link:focus {
@@ -90,26 +91,19 @@
   right: 20px;
 }
 
-.footer-inst-icon {
+.footer-soc-link {
   stroke: var(--white-color);
-  fill: transparent;
-  width: 22px;
-  height: 22px;
+  outline: none;
+  transition: stroke var(--timing-function);
 }
-
-.footer-twitter-icon {
-  stroke: var(--white-color);
-  fill: transparent;
-  width: 22px;
-  height: 22px;
-}
-
-.footer-inst-icon:hover {
+.footer-soc-link:hover {
   stroke: var(--accent-color);
+  outline: none;
 }
 
-.footer-twitter-icon:hover {
-  stroke: var(--accent-color);
+.footer-soc-icon {
+  color: currentColor;
+  fill: transparent;
 }
 
 .footer-navigation-list {
@@ -124,8 +118,12 @@
   line-height: 1.14;
   letter-spacing: -0.02em;
   color: var(--white-color);
+  transition: color var(--timing-function);
 }
-
+.footer-navigation-link:hover,
+.footer-navigation-link:focus {
+  color: var(--accent-color);
+}
 /* ----------------------------375px-------------------------- */
 
 @media screen and (min-width: 375px) {

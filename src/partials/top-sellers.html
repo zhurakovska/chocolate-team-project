@@ -5,6 +5,75 @@
       Top <span class="top-sellers-title-dark">Sellers</span>
     </h2>
     <div class="top-sellers-thumb">
+      <picture class="top top-1 top-sellers-picture">
+        <source
+          srcset="
+            ./img/top-sellers/topsallers-img-desc-1@2x.jpg 1x,
+            ./img/top-sellers/topsallers-img-desc-1@2x.jpg 2x
+          "
+          media="(min-width: 1200px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./img/top-sellers/topsallers-img-tab-1@2x.jpg 1x,
+            ./img/top-sellers/topsallers-img-tab-1@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="./img/top-sellers/topsallers-img-mob-1@2x.jpg"
+          media="(max-width: 767px)"
+          type="image/jpeg"
+        />
+        <img
+          class="top-sellers-img"
+          src="./img/top-sellers/topsallers-img-mob-1.jpg"
+          alt="Nuts and chocolates"
+        />
+      </picture>
+      <p class="top top-2 top-sellers-text">
+        Crazy enough chocolate originates from a bean just like the coffee bean
+        called Cacao. Cacao has been around for thousands of years and was first
+        discovered by the Native American tribe called the Mayans.
+      </p>
+      <picture class="top top-3 top-sellers-picture">
+        <source
+          srcset="
+            ./img/top-sellers/topsallers-img-desc-2@2x.jpg 1x,
+            ./img/top-sellers/topsallers-img-desc-2@2x.jpg 2x
+          "
+          media="(min-width: 1200px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./img/top-sellers/topsallers-img-tab-2@2x.jpg 1x,
+            ./img/top-sellers/topsallers-img-tab-2@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="./img/top-sellers/topsallers-img-mob-2@2x.jpg"
+          media="(max-width: 767px)"
+          type="image/jpeg"
+        />
+        <img
+          class="top-sellers-img"
+          src="./img/top-sellers/topsallers-img-mob-2.jpg"
+          alt="Nuts and chocolates"
+        />
+      </picture>
+      <picture class="top top-4 top-sellers-picture">
+        <img
+          srcset="./img/top-sellers/topsallers-img-desc-3.jpg"
+          class="top-sellers-img top-sellers-img-hidden"
+          src="./img/top-sellers/topsallers-img-desc-3.jpg"
+          alt="Dark chocolates"
+        />
+      </picture>
         <picture class="top top-1 top-sellers-picture">
           <source
             srcset="
@@ -77,11 +146,10 @@
             loading="lazy"
           />
         </picture>
+
       <button class="top top-5 buy-modal-btn" data-order-open type="button">
         Buy now
       </button>
-      </div>
-
     </div>
   </div>
 </section>
@@ -217,7 +285,9 @@
         placeholder="Phone number"
       />
 
-      <label for="user_card" class="buy-now-label label-card">Card number </label>
+      <label for="user_card" class="buy-now-label label-card"
+        >Card number
+      </label>
       <input
         class="buy-now-input"
         type="text"
@@ -232,7 +302,7 @@
       <textarea
         class="buy-now-textarea"
         name="user_message"
-         id="user_message"
+        id="user_message"
         rows="5"
         placeholder="Enter Text"
       ></textarea>
