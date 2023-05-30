@@ -282,6 +282,11 @@ input::placeholder {
         background-size: 538px 196px;
     }
 
+    .data-explore-close {
+        width: 14px;
+        height: 14px;
+    }
+
     .subscribe-modal-close {
         top: 24px;
         right: 24px;
