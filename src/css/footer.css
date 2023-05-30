@@ -70,21 +70,16 @@
   margin-bottom: 14px;
 }
 
-.footer-contact-us-tel {
+.footer-contact-link {
   font-family: 'Montserrat-400';
   color: var(--white-color);
 }
-.footer-contact-us-tel:hover,
-.footer-contact-us-tel:focus {
+.footer-contact-link:hover,
+.footer-contact-link:focus {
   color: var(--accent-color);
 }
 .footer-contact-us-tel-item {
   margin-bottom: 4px;
-}
-
-.footer-contact-us-mail {
-  font-family: 'Montserrat-400';
-  color: var(--white-color);
 }
 
 .footer-socials {
