@@ -67,14 +67,13 @@
   background-color: var(--white-color-100);
   border: 1px solid var(--accent-color);
   border-radius: 100px;
-  transform: color var(--timing-function),
+  transition: color var(--timing-function),
     background-color var(--timing-function);
 }
 .reviews-btn:hover,
 .reviews-btn:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
-  border: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -132,6 +131,7 @@
   transform: translate(-50%, -50%) scale(1);
   max-width: 311px;
   width: 100%;
+  transition: transform var(--timing-function);
 }
 .modal-btn {
   position: absolute;
@@ -285,7 +285,7 @@
   background-color: var(--accent-color);
   border-radius: 100px;
   border: none;
-  transform: color var(--timing-function),
+  transition: color var(--timing-function),
     background-color var(--timing-function);
 }
 .form-submit-btn:hover,
