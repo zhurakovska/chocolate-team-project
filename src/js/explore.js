@@ -9,7 +9,7 @@
   if (refs.openModalBtn && refs.closeModalBtn && refs.modal) {
     refs.openModalBtn.addEventListener("click", toggleModal);
     refs.closeModalBtn.addEventListener("click", toggleModal);
-     refs.submitBtn.addEventListener("click", toggleModal);
+    refs.submitBtn.addEventListener("click", toggleModal);
   }
 
   function toggleModal() {
