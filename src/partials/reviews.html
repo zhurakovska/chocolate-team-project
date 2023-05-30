@@ -135,6 +135,9 @@
               id="name"
               class="modal-form-input"
               placeholder="Name"
+              required
+              pattern="^[a-zA-Z]+$"
+              minlength="2"
           /></label>
 
           <label for="mail" class="modal-form-label">
@@ -144,6 +147,9 @@
               id="mail"
               class="modal-form-input"
               placeholder="Enter your email"
+              required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="user123@mail.com"
           /></label>
 
           <label for="tel" class="modal-form-label label-before">
