@@ -18,6 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 .top-sellers-img {
@@ -30,14 +31,12 @@
 .top-sellers {
   background: #fafafa;
 }
-.top-sellers-picture {
-  margin-bottom: 20px;
-}
+
 .top-sellers-text {
   font-family: 'Montserrat-400', sans-serif;
   text-align: left;
   max-width: 306px;
-  margin-bottom: 32px;
+  margin-bottom: 12px;
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
@@ -45,7 +44,6 @@
 }
 .buy-modal-btn {
   display: block;
-  margin: 0 auto;
   padding: 12px 28px;
   max-width: 120px;
   font-family: 'Montserrat-600', sans-serif;
@@ -284,12 +282,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    gap: 32px 16px;
   }
-  .top-sellers-picture {
-    margin-bottom: 32px;
-  }
+
   .top {
-    width: calc((100%-16px) / 2);
+    width: calc((100% / 2)-16px);
   }
   .top-1 {
     order: 1;
@@ -312,14 +309,10 @@
 
   .top-sellers-text {
     max-width: 306px;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 
   .buy-modal-btn {
-    margin-top: 0;
     margin-left: auto;
-    margin-right: 8px;
   }
   .buy-now-modal {
     max-width: 609px;
@@ -397,11 +390,15 @@
     justify-content: center;
     align-items: flex-start;
   }
+  .top-sellers-img {
+    width: 368px;
+  }
+
   .top-sellers-text {
     max-width: 407px;
   }
   .top {
-    width: calc((100%-32px) / 3);
+    width: calc((100% / 3)-32px);
   }
   .top-1 {
     order: 1;
@@ -418,7 +415,6 @@
     display: block;
   }
   .top-5 {
-    margin-right: 10px;
     order: 5;
   }
 
